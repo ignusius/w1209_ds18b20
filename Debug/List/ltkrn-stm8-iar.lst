@@ -1,0 +1,32 @@
+###############################################################################
+#                                                                             #
+# IAR Assembler V1.40.1.50106 for STM8                  15/Feb/2017  05:54:36 #
+# Copyright 2010-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Source file  =  C:\Users\komar.host100456\Desktop\TermoDermo\litenkjerne #
+#                    \ltkrn-stm8-iar.asm                                      #
+#    Command line =  C:\Users\komar.host100456\Desktop\TermoDermo\litenkjerne #
+#                    \ltkrn-stm8-iar.asm -M<> -r -ld                          #
+#                    C:\Users\komar.host100456\Desktop\TermoDermo\Debug\List\ #
+#                     --code_model small --data_model medium -o               #
+#                    C:\Users\komar.host100456\Desktop\TermoDermo\Debug\Obj\  #
+#    List file    =  C:\Users\komar.host100456\Desktop\TermoDermo\Debug\List\ #
+#                    ltkrn-stm8-iar.lst                                       #
+#    Object file  =  C:\Users\komar.host100456\Desktop\TermoDermo\Debug\Obj\l #
+#                    tkrn-stm8-iar.o                                          #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+##############################################################################
+# Module liten_kjerne                                                        #
+##############################################################################
+
+     49                        
+ 
+ 68 bytes in section .near_func.text  , module liten_kjerne
+ 
+ 68 bytes of CODE memory  in module liten_kjerne
+
+Errors: none
+Warnings: none
