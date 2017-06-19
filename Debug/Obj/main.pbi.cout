@@ -1,4 +1,4 @@
-"C:\Users\komar.host100456\Desktop\TermoDermo\main.c"
+"D:\Projects\TermoDermo\main.c"
 -std=c99
 -ferror-limit=100
 -I
@@ -12,11 +12,11 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\stm8\inc\c
 -I
-C:\Users\komar.host100456\Desktop\pflib
+C:\Windows\system32\pflib
 -I
-C:\Users\komar.host100456\pflib
+C:\Windows\pflib
 -I
-C:\Users\komar.host100456\Desktop\litenkjerne
+C:\Windows\system32\litenkjerne
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -225,8 +225,8 @@ C:\Users\komar.host100456\Desktop\litenkjerne
 -D__HAS_LOCATED_DECLARATION__=1
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=593160
--D__DATE__="Feb 28 2017"
--D__TIME__="06:57:52"
+-D__DATE__="Jun 19 2017"
+-D__TIME__="13:23:58"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1

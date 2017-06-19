@@ -200,21 +200,21 @@ static NO_REG_SAVE void user_thread_func (void)
       if (buttons.JustPressed & BUTTON_PLUS)
       {
         buttons.JustPressed &= BUTTON_PLUS_MASK;
-        /*if (display_temp < 125)*/ display_temp++;
+        if (display_temp < 125) display_temp++;
       }
       if (buttons.JustPressed & BUTTON_MINUS)
       {
         buttons.JustPressed &= BUTTON_MINUS_MASK;
-        /*if (display_temp > 0)*/ display_temp--;
+        if (display_temp > 0)display_temp--;
       }
       while (buttons.Hold & BUTTON_PLUS)
       {
-        /*if (display_temp < 125)*/ display_temp += 10;
+        if (display_temp < 110)display_temp += 10;
         krn_sleep(KRN_FREQ/2);
       }
       while (buttons.Hold & BUTTON_MINUS)
       {
-        /*if (display_temp > 0)*/ display_temp -= 10;
+        if (display_temp > 10) display_temp -= 10;
         krn_sleep(KRN_FREQ/2);
       }
       if (buttons.JustPressed & BUTTON_SET)
